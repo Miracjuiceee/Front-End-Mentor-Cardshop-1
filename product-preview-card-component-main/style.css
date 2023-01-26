@@ -6,11 +6,69 @@
 
 /* Font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'Fraunces';
+    src: url('fonts/fraunces.ttf');
 
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat.ttf')
+}
 
 /* Starting presets */ 
 
+h1, h2 {
+    font-family: 'Fraunces';
+}
 
+p {
+    font-family: 'Montserrat';
+}
+
+/* body settings */
+
+body {
+    background: hsl(30, 38%, 92%);
+    height: 100vh;
+}
+
+/* card settings */
+
+.article_card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50em;
+    max-width: 760px;
+    height: 30em;
+    max-height: 600px;
+    margin: 20% auto;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* image parent */
+
+.img_part {
+    width: 50%;
+    object-fit:cover;
+}
+
+
+
+/* image part */
+
+.img_part img {
+    width: 21.5em;
+    align-items: center;
+    max-height: 100%;
+    
+}
+
+/* content part */
+
+.content_part {
+    width: 50%;
+}
 
