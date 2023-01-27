@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "livePreview.defaultPreviewPath": "d:\\Dev web\\git repository\\Front-End-Mentor-Challenge\\product-preview-card-component-main\\index.html"
 }
